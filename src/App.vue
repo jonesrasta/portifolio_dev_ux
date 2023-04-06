@@ -1,4 +1,5 @@
 <script setup>
+import Banner from "./components/banner/Banner.vue"
 import Navbar from "./components/Home/Nav/Navbar.vue";
 import Logo from "./components/Home/Logo/Logo.vue";
 import Footer from "./layout/Footer/Footer.vue"
@@ -10,7 +11,8 @@ import ButtonBox from "./components/Home/Box/ButtonBox.vue";
 </script>
 
 <template>
-  <div class="bg-[color:#111111] max-w-screen-2xl flex flex-col mx-auto justify-center">
+  <div class=" bg-[color:#111111] max-w-screen-4xl w-full flex flex-col mx-auto items-center">
+    <Banner />
     <Navbar />
     <Logo />
     <ButtonBox />
@@ -20,4 +22,5 @@ import ButtonBox from "./components/Home/Box/ButtonBox.vue";
 </template>
 
 <style scoped>
+
 </style>

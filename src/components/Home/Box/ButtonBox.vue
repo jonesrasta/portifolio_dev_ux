@@ -2,7 +2,7 @@
 
 <template>
   <div
-    class="flex max-w-screen-2xl max-lg:flex gap-3 max-lg:flex-col py-3 p-4 place-items-stretch h-auto bg-[color:#111111] justify-center items-center"
+    class="container flex items-center max-w-screen-4xl max-lg:flex gap-3 max-lg:flex-col  place-items-stretch h-auto bg-[color:#111111] justify-center"
   >
     <button
       class="box-button flex justify-center p-6 flex-col shadow-md hover:transition hover:duration-300 hover:ease-in-out"
@@ -32,7 +32,7 @@
       <img
         src="/src/assets/img/open.png"
         alt=""
-        class="flex flex-col w-24 m-4 -mt-4 items-center"
+        class="flex flex-col w-24 m-4 -mt-4"
       />
       <p class="flex flex-col text-white">
         Desenvolvimento de ilustrações, logotipos e outros designs. Layouts
@@ -57,7 +57,7 @@
 
 <style scoped>
 .box-button {
-  width: 360px;
+  width: 330px;
   height: 310px;
   background: rgba(255, 255, 255, 0.04);
   border: 2px solid rgba(255, 255, 255, 0.18);

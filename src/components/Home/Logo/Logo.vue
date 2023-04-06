@@ -63,17 +63,18 @@ const options = {
 </script>
 
 <template>
-  <div class="md:columns-2 mx-auto m-4 overflow-hidden max-w-4xl mt-24"></div>
-  <div>
+  <div class="container flex justify-center flex-col">
+  <div class="flex w-96  md:columns-2 mx-auto m-28 overflow-hidden"></div>
+  
     <h2
       :class="styles.title"
-      class="text-center font-bold text-transparent bg-clip-text text-2xl bg-gradient-to-l from-white to-[#FB4220]"
+      class="flex flex-col justify-center text-3xl text-center font-bold text-transparent p-1 bg-clip-text bg-gradient-to-l from-white to-[#FB4220]"
     >
       Talk is cheap. Show me the code Show me the code
     </h2>
     <p
       :class="styles.subtitle"
-      class="text-center font-regular text-white pt-6"
+      class="text-center font-regular text-white p-4"
     >
       Desenvolvedor de Software apaixonado por solução de problemas e pela
       criação de soluções eficientes para sua empresa.
@@ -83,7 +84,7 @@ const options = {
         href="https://wa.me/+5511955509876"
         target="blank"
         type="button"
-        class="button text-white border-2 justify-between border-[#FB4220] items-center pl-10 rounded-full font-normal text-xl h-14 w-64 inline-flex"
+        class="button text-white border-2 justify-between border-[#FB4220] items-center pl-10 rounded-full font-bold text-xl h-14 w-64 inline-flex"
       >
         LET'S CHAT!
         <svg
@@ -113,7 +114,7 @@ const options = {
       </a>
     </div>
 
-    <div id="default-carousel m-4" class="relative w-full" data-carousel="slide">
+    <div  id="default-carousel m-4" class="justify-center p-2 relative w-full" data-carousel="slide">
       <!-- Carousel wrapper -->
       <div class="relative h-96 overflow-hidden rounded-lg md:h-96 m-1 md:m-16">
         <!-- Item 1 -->
@@ -248,4 +249,5 @@ const options = {
   box-shadow: 1px 1px 8px 1px #fb4220;
   border-radius: 99px;
 }
+
 </style>
