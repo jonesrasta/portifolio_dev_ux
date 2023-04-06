@@ -63,7 +63,7 @@ const options = {
 </script>
 
 <template>
-  <div class="md:columns-2 mx-auto overflow-hidden max-w-4xl mt-24"></div>
+  <div class="md:columns-2 mx-auto m-4 overflow-hidden max-w-4xl mt-24"></div>
   <div>
     <h2
       :class="styles.title"
@@ -113,7 +113,7 @@ const options = {
       </a>
     </div>
 
-    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+    <div id="default-carousel m-4" class="relative w-full" data-carousel="slide">
       <!-- Carousel wrapper -->
       <div class="relative h-96 overflow-hidden rounded-lg md:h-96 m-1 md:m-16">
         <!-- Item 1 -->

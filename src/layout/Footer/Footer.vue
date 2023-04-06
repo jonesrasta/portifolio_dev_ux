@@ -3,7 +3,7 @@
     <hr class="mt-8 bg-gray-200 border-1 w-full">
     <div class="flex justify-center">
       
-          <img src="/src/assets/img/logoJones.svg" alt="Logo Footer" class="flex mt-6 justify-center w-20">
+          <img src="/src/assets/img/logoJones.svg" alt="Logo Footer" class="flex mt-6 justify-center w-14">
     </div>
     <div class="container px-6 pt-6 max-w-screen-2xl  bg-[#111111] text-center text-white">
       <div class="mb-6 flex justify-center">

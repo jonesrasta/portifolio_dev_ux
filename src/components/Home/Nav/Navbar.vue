@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="flex justify-between py-4 focus:text-gray-700">
+  <div class="flex justify-between py-4 m-2 focus:text-gray-700">
     <img
       src="src/assets/img/logo.svg"
       alt="logo Jones"
