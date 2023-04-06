@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "flowbite": "^1.6.4",
     "gitart-scroll-carousel": "^1.2.4",
     "tw-elements": "^1.0.0-alpha13",
     "vue": "^3.2.45"

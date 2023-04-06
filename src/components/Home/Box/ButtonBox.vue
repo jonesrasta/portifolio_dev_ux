@@ -5,35 +5,40 @@
     <button
       class="box-button flex justify-center p-6 flex-col shadow-md hover:transition hover:duration-300 hover:ease-in-out"
     >
-      <p class="text-box font-bold text-[color:#FB4220]">
-        Front-End
-      </p>
-      <p class="flex font-normal text-white">
+    <img src="/src/assets/img/acquavero.png" alt="" class="flex flex-col w-24 m-4 -mt-8 items-center">
+      <p class="flex flex-col font-thin text-white">
         I design and code beatifully simple
+        I design and code beatifully simple
+        I design and code beatifully simple
+        I design and code beatifully simple
+
       </p>
     </button>
     <button class="box-button flex justify-center p-6 flex-col shadow-md">
-      <p class="text-box font-bold text-[color:#FB4220]">
-        UX | UI Motion
-      </p>
-      <p class="flex font-normal text-white">
-        I design and code beatifully simple
-      </p>
-    </button>
-    <button class="box-button flex justify-center p-6 flex-col shadow-md">
-      <p class="text-box font-bold text-[color:#FB4220]">
-        Back-End
-      </p>
-      <p class="flex font-normal text-white">
-        I design and code beatifully simple
+      <img src="/src/assets/img/opennew.png" alt="" class="flex flex-col w-24 m-4 -mt-4 items-center">
+      <p class="flex flex-col font-thin text-white">
+        Criação de storyboards, criação de moodboards 
+        e style frames produção e animação. 
+        Elementos gráficos em movimento, criação 
+        animação em 2D e 3D.
       </p>
     </button>
     <button class="box-button flex justify-center p-6 flex-col shadow-md">
-      <p class="text-box font-bold text-[color:#FB4220]">
-        Back-End
+      <img src="/src/assets/img/open.png" alt="" class="flex flex-col w-24 m-4 -mt-4 items-center">
+      <p class="flex flex-col font-thin text-white">
+    Desenvolvimento de ilustrações, logotipos e outros designs.
+    Layouts adequados para cada elemento gráfico
+    Teste de elementos gráficos em diferentes mídias
+
       </p>
-      <p class="flex font-normal text-white">
-        I design and code beatifully simple
+    </button>
+    <button class="box-button flex justify-center p-6 flex-col shadow-md">
+      <img src="/src/assets/img/poloepaula.png" alt="" class="flex flex-col w-24 m-4 -mt-2 items-center">
+      <p class="flex flex-col font-thin text-white">
+        Suporte a sistemas de informação e 
+        soluções tecnológicas.Instalação e customização de softwares, 
+        administração sistemas e procedimentos 
+        de segurança de rede.
       </p>
     </button>
   </div>
@@ -41,8 +46,8 @@
 
 <style scoped>
 .box-button {
-  width: 330px;
-  height: 249px;
+  width: 280px;
+  height: 310px;
   background: rgba(255, 255, 255, 0.04);
 border: 2px solid rgba(255, 255, 255, 0.18);
 backdrop-filter: blur(95px);
@@ -51,5 +56,13 @@ backdrop-filter: blur(95px);
 border-radius: 16px;
   justify-content: center;
   align-items: center;
+  margin-top: 8px;
+  font-size: 16px;
 }
+.box-button:hover {
+border: 1px solid #FB4220;
+box-shadow: -3px 1px 15px 2px #FB4220;
+border-radius: 16px;
+}
+
 </style>

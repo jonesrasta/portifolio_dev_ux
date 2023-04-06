@@ -59,7 +59,7 @@
 <style scoped>
 .button {
   font-family: ubuntu mono;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
 }
 </style>

@@ -1,5 +1,66 @@
 <script setup>
 import styles from "./logo.module.scss";
+import { Carousel } from 'flowbite';
+
+const items = [
+    {
+        position: 0,
+        el: document.getElementById('carousel-item-1')
+    },
+    {
+        position: 1,
+        el: document.getElementById('carousel-item-2')
+    },
+    {
+        position: 2,
+        el: document.getElementById('carousel-item-3')
+    },
+    {
+        position: 3,
+        el: document.getElementById('carousel-item-4')
+    },
+];
+
+const options = {
+    defaultPosition: 1,
+    interval: 3000,
+    
+    indicators: {
+        activeClasses: 'bg-white dark:bg-gray-800',
+        inactiveClasses: 'bg-white/50 dark:bg-gray-800/50 hover:bg-white dark:hover:bg-gray-800',
+        items: [
+            {
+                position: 0,
+                el: document.getElementById('carousel-indicator-1')
+            },
+            {
+                position: 1,
+                el: document.getElementById('carousel-indicator-2')
+            },
+            {
+                position: 2,
+                el: document.getElementById('carousel-indicator-3')
+            },
+            {
+                position: 3,
+                el: document.getElementById('carousel-indicator-4')
+            },
+        ]
+    },
+    
+    // callback functions
+    onNext: () => {
+        console.log('next slider item is shown');
+    },
+    onPrev: ( ) => {
+        console.log('previous slider item is shown');
+    },
+    onChange: ( ) => {
+        console.log('new slider item has been shown');
+    }
+};
+
+
 </script>
 
 <template>
@@ -29,14 +90,14 @@ import styles from "./logo.module.scss";
         href="https://wa.me/+5511955509876"
         target="blank"
         type="button"
-        class="text-white border-2 justify-between border-[#FB4220] items-center pl-10 rounded-full font-medium text-base h-14 w-64 inline-flex"
+        class="button text-white border-2 justify-between border-[#FB4220] items-center pl-10 rounded-full font-medium text-base h-14 w-64 inline-flex"
       >
         LET'S CHAT!
         <svg
           class="icone flex justify-between z-auto"
           width="56"
           height="54"
-          viewBox="1 -3 36 50"
+          viewBox="1 -4 36 52"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -59,7 +120,52 @@ import styles from "./logo.module.scss";
       </a>
     </div>
 
-    <div
+
+    
+<div id="default-carousel" class="relative w-full" data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-96 overflow-hidden rounded-lg md:h-96 m-1 md:m-16">
+         <!-- Item 1 -->
+        <div class="duration-700 ease-in-out" data-carousel-item>
+            <img src="/src/assets/img/Display1.svg" class="absolute block justify-center w-[490px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 2 -->
+        <div class="duration-700 ease-in-out" data-carousel-item>
+            <img src="/src/assets/img/Display2.svg" class="absolute block justify-center w-[490px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 3 -->
+        <div class="duration-700 ease-in-out" data-carousel-item>
+            <img src="/src/assets/img/Display3.svg" class="absolute block justify-center w-[490px] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <!-- Item 4 -->
+        <div class="duration-700 ease-in-out" data-carousel-item>
+            <img src="/src/assets/img/Display4.svg" class="justify-center w-[490px] absolute block -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+    </div>
+    <!-- Slider indicators -->
+    <div class="absolute flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+        <button type="button" class="w-2 h-2 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+        <button type="button" class="w-2 h-2 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+        <button type="button" class="w-2 h-2 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+        <button type="button" class="w-2 h-2 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+        
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/10 dark:bg-gray-800/30 group-hover:bg-white/20 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-[#FB4220] group-focus:outline-none">
+            <svg aria-hidden="true" class="w-5 h-5 text-[#FB4220] sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/10 dark:bg-gray-800/30 group-hover:bg-white/20 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-[#FB4220] group-focus:outline-none">
+            <svg aria-hidden="true" class="w-5 h-5 text-[#FB4220] sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+
+   <!-- <div
       id="carouselExampleCaptions"
       class="relative"
       data-te-carousel-init
@@ -103,7 +209,7 @@ import styles from "./logo.module.scss";
           style="backface-visibility: hidden"
         >
           <img
-            src="/src/assets/img/slide1.svg"
+            src="/src/assets/img/Display1.svg"
             class="block justify-center w-[816px] p-4 py-16"
             alt="..."
           />
@@ -114,8 +220,8 @@ import styles from "./logo.module.scss";
           style="backface-visibility: hidden"
         >
           <img
-            src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(22).jpg"
-            class="block w-full"
+            src="/src/assets/img/Display2.svg"
+            class="block w-[816px] p-4 py-16"
             alt="..."
           />
           <div
@@ -129,8 +235,8 @@ import styles from "./logo.module.scss";
           style="backface-visibility: hidden"
         >
           <img
-            src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(23).jpg"
-            class="block w-full"
+            src="/src/assets/img/Display3.svg"
+            class="block w-[816px] p-4 py-16"
             alt="..."
           />
           <div
@@ -139,7 +245,7 @@ import styles from "./logo.module.scss";
           </div>
         </div>
       </div>
-          <!-- Slider controls -->
+          Slider controls 
     <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
         <span class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/10 group-hover:bg-white/10 group-focus:ring-4 group-focus:ring-[#FB4220] group-focus:outline-none">
             <svg aria-hidden="true" class="w-5 h-5 text-[#FB4220] sm:w-6 sm:h-6 " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
@@ -152,7 +258,7 @@ import styles from "./logo.module.scss";
             <span class="sr-only">Next</span>
         </span>
     </button>
-    </div>
+    </div>-->
   </div>
 </template>
 
@@ -161,4 +267,10 @@ import styles from "./logo.module.scss";
   font-family: ubuntu mono;
   font-weight: 500;
 }
+.button:hover {
+border: 3px solid #FB4220;
+box-shadow: 1px 1px 8px 1px #FB4220;
+border-radius: 99px;
+}
+
 </style>
