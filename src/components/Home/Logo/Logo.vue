@@ -83,7 +83,7 @@ const options = {
         href="https://wa.me/+5511955509876"
         target="blank"
         type="button"
-        class="button text-white border-2 justify-between border-[#FB4220] items-center pl-10 rounded-full font-medium text-base h-14 w-64 inline-flex"
+        class="button text-white border-2 justify-between border-[#FB4220] items-center pl-10 rounded-full font-normal text-xl h-14 w-64 inline-flex"
       >
         LET'S CHAT!
         <svg
