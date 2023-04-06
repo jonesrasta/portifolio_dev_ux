@@ -1,27 +1,18 @@
-<script setup>
- 
-</script>
+<script setup></script>
 
 <template>
-  <div
-    class="flex justify-between text-gray-100 py-4 hover:text-gray-100 focus:text-gray-700 shadow-lg"
-  >
-        <img
-        src="src/assets/img/logo.svg"
-        alt="logo Jones" class="ml-1 h-10 w-36 "
-      >
-      <div class=" flex justify-center ml-6">
-      <!--<a
-          href="https://wa.me/+5511955509876"
-          target="blank"
-          class="button font-medium border-2 border-[#FB4220] rounded-full text-white pl-5"
-          >LET'S CHAT!</a
-        >-->
+  <div class="flex justify-between py-4 focus:text-gray-700">
+    <img
+      src="src/assets/img/logo.svg"
+      alt="logo Jones"
+      class="ml-1 h-10 w-36"
+    />
+    <div class="flex justify-center ml-6">
       <a
         href="https://wa.me/+5511955509876"
         target="blank"
         type="button"
-        class="button text-white bg-[#201E1D] items-center text-start pl-6 rounded-full h-10 w-42  inline-flex"
+        class="button text-white bg-[#201E1D] items-center text-start pl-6 rounded-full h-10 w-42 inline-flex"
       >
         LET'S CHAT!
         <svg
@@ -50,10 +41,8 @@
         </svg>
       </a>
     </div>
- 
   </div>
-
-  
+  <hr class="mt-0 bg-gray-200 border-1 w-full" />
 </template>
 
 <style scoped>
