@@ -3,7 +3,7 @@
 <template>
   <div class="flex justify-between py-4 m-2 focus:text-gray-700">
     <img
-      src="src/assets/img/logo.svg"
+      src="/src/assets/img/logo.svg"
       alt="logo Jones"
       class="ml-1 h-10 w-36"
     />
