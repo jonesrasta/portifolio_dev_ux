@@ -57,7 +57,7 @@
 
 <style scoped>
 .box-button {
-  width: 300px;
+  width: 360px;
   height: 310px;
   background: rgba(255, 255, 255, 0.04);
   border: 2px solid rgba(255, 255, 255, 0.18);

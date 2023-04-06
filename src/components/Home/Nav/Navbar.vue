@@ -1,6 +1,10 @@
-<script setup></script>
+<script setup>
+</script>
 
 <template>
+  <div class="bg-[#070707] flex justify-center py-auto h-16 w-full">
+    <img src="/src/assets/img/logoTop.svg" alt="" class="w-9">
+  </div>
   <div class="flex justify-between py-4 m-2 focus:text-gray-700">
     <img
       src="/src/assets/img/logo.svg"
@@ -51,4 +55,5 @@
   font-weight: 500;
   font-size: 16px;
 }
+
 </style>

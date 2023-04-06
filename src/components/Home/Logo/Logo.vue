@@ -76,7 +76,7 @@ const options = {
       class="text-center font-regular text-white pt-6"
     >
       Desenvolvedor de Software apaixonado por solução de problemas e pela
-      criação de <br />soluções eficientes para sua empresa.
+      criação de soluções eficientes para sua empresa.
     </p>
     <div class="flex justify-center p-8">
       <a
@@ -234,6 +234,7 @@ const options = {
         </span>
       </button>
     </div>
+    <!--<img src="/src/assets/img/circle2.svg" alt="" class="absolute left-2/3 w-56 -my-8">-->
   </div>
 </template>
 
