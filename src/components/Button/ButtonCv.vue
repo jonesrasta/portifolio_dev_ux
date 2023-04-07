@@ -3,7 +3,7 @@
 
 <template>
 
-<div class="container flex justify-center p-8">
+<div class="flex justify-center p-8">
       <!--<a
           href="https://wa.me/+5511955509876"
           target="blank"

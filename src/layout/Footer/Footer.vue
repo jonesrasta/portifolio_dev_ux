@@ -8,7 +8,8 @@
     <div class="flex flex-col py-6 justify-center max-w-screen-4xl bg-[#111111] text-center text-white">
       <div class="mb-6 flex justify-center">
         <a
-          href="#!"
+          href="https://mail.google.com/"
+          target="blank"
           type="button"
           class="m-1 h-9 w-9 rounded-full border-2 border-[#FB4220] uppercase leading-normal text-[#FB4220] transition duration-150 ease-in-out hover:bg-[#FB4220] hover:bg-opacity-5 focus:outline-none focus:ring-0"
           data-te-ripple-init
@@ -29,7 +30,8 @@
         </a>
 
         <a
-        href="#!"
+        href="https://github.com/jonesrasta" 
+        target="blank"
         type="button"
         class="m-1 h-9 w-9 rounded-full border-2 border-[#FB4220] uppercase leading-normal text-[#FB4220] transition duration-150 ease-in-out hover:bg-[#FB4220] hover:bg-opacity-5 focus:outline-none focus:ring-0"
         data-te-ripple-init
@@ -45,7 +47,8 @@
       </a>
 
         <a
-          href="#!"
+          href="https://www.linkedin.com/in/joneslima"
+          target="blank"
           type="button"
           class="m-1 h-9 w-9 rounded-full border-2 border-[#FB4220] uppercase leading-normal text-[#FB4220] transition duration-150 ease-in-out hover:bg-[#FB4220] hover:bg-opacity-10 focus:outline-none focus:ring-0"
           data-te-ripple-init

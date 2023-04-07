@@ -49,42 +49,33 @@ const options = {
     ],
   },
 
-  // callback functions
-  onNext: () => {
-    console.log("next slider item is shown");
-  },
-  onPrev: () => {
-    console.log("previous slider item is shown");
-  },
-  onChange: () => {
-    console.log("new slider item has been shown");
-  },
+
 };
 </script>
 
 <template>
   <div class="container flex justify-center flex-col">
-  <div class="flex w-96  md:columns-2 mx-auto m-28 overflow-hidden"></div>
-  
+    <div
+      class="flex md:columns-2 mx-auto m-24 max-md:m-12 overflow-hidden z-20"
+    ></div>
+
     <h2
       :class="styles.title"
-      class="flex flex-col justify-center text-3xl text-center font-bold text-transparent p-1 bg-clip-text bg-gradient-to-l from-white to-[#FB4220]"
+      class="flex flex-col justify-center text-5xl max-md:text-3xl text-center font-bold text-transparent p-1 bg-clip-text bg-gradient-to-l from-white to-[#FB4220]"
     >
-      Talk is cheap. Show me the code Show me the code
+      Talk is cheap. Show me the code.
     </h2>
-    <p
-      :class="styles.subtitle"
-      class="text-center font-regular text-white p-4"
-    >
+    <p :class="styles.subtitle" class="text-center font-regular text-white p-4">
       Desenvolvedor de Software apaixonado por solução de problemas e pela
       criação de soluções eficientes para sua empresa.
     </p>
+
     <div class="flex justify-center p-8">
       <a
         href="https://wa.me/+5511955509876"
         target="blank"
         type="button"
-        class="button text-white border-2 justify-between border-[#FB4220] items-center pl-10 rounded-full font-bold text-xl h-14 w-64 inline-flex"
+        class="button text-white border-2 bg-[#111111] justify-between border-[#FB4220] items-center pl-10 rounded-full font-bold text-xl h-14 w-64 inline-flex"
       >
         LET'S CHAT!
         <svg
@@ -114,7 +105,11 @@ const options = {
       </a>
     </div>
 
-    <div  id="default-carousel m-4" class="justify-center p-2 relative w-full" data-carousel="slide">
+    <div
+      id="default-carousel"
+      class="justify-center p-0 relative w-full"
+      data-carousel="slide"
+    >
       <!-- Carousel wrapper -->
       <div class="relative h-96 overflow-hidden rounded-lg md:h-96 m-1 md:m-16">
         <!-- Item 1 -->
@@ -184,7 +179,7 @@ const options = {
       <!-- Slider controls -->
       <button
         type="button"
-        class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+        class="absolute top-0 left-0 z-50 flex items-center justify-center h-full px-4 cursor-pointer focus:outline-none"
         data-carousel-prev
       >
         <span
@@ -240,6 +235,7 @@ const options = {
 </template>
 
 <style scoped>
+
 .button {
   font-family: ubuntu mono;
   font-weight: 500;
@@ -249,5 +245,4 @@ const options = {
   box-shadow: 1px 1px 8px 1px #fb4220;
   border-radius: 99px;
 }
-
 </style>
