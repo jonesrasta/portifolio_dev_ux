@@ -1,4 +1,4 @@
-<script setup>
+<script>
 
 </script>
 
@@ -15,7 +15,7 @@
         sucesso da sua empresa. 
       </p>
       <a
-        href="./src/assets/cv.pdf" download="jones_lima" 
+        href="/public/cv.pdf" download="Jones Lima" 
         target="blank"
         type="button"
         class=" button text-white border-2 justify-between border-[#FB4220] items-center pl-10 rounded-full font-medium text-base h-14 w-60 inline-flex"
