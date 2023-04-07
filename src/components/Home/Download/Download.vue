@@ -15,7 +15,7 @@
         sucesso da sua empresa. 
       </p>
       <a
-        href="/public/cv.pdf" download="Jones Lima" 
+        href="/public/cv.pdf" download="jones_lima" 
         target="blank"
         type="button"
         class=" button text-white border-2 justify-between border-[#FB4220] items-center pl-10 rounded-full font-medium text-base h-14 w-60 inline-flex"
