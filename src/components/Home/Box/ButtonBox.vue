@@ -13,7 +13,7 @@
         class="flex flex-col w-24 m-2 items-center"
       />
       <p class="flex flex-col text-white font-bold text-sm">
-        FULSTACK DEVELOPER
+        FULLSTACK DEVELOPER
       </p>
     </button>
     <button class="box-button flex justify-center p-6 flex-col shadow-md">
