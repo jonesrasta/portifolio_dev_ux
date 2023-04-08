@@ -3,7 +3,7 @@
 <template>
   <div class="flex w-full max-w-screen-4xl justify-center">
     <div class="container w-full bg-[#111111] z-50 max-w-screen-4xl ">
-      <div class="flex justify-between py-4 m-2 mx-16 max-md:mx-2">
+      <div class="flex justify-between py-4 m-2 mx-1 max-md:mx-2">
         <img
           src="/src/assets/img/logo.svg"
           alt="logo Jones"
@@ -14,7 +14,7 @@
             href="https://wa.me/+5511955509876"
             target="blank"
             type="button"
-            class="button text-white bg-[#201E1D] items-center text-start pl-6 rounded-full h-10 w-42 inline-flex"
+            class="button text-white bg-[#201E1D] items-center text-start hover:bg-[#FB4220] pl-6 rounded-full h-10 w-42 inline-flex"
           >
             LET'S CHAT!
             <svg

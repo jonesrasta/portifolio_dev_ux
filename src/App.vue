@@ -19,7 +19,7 @@ import Download from "./components/Home/Download/Download.vue";
     <img src="/src/assets/img/circle2.svg" alt="" class="w-36 fixed z-0 left-32 mx-36 my-96">
     <img src="/src/assets/img/circle2.svg" alt="" class="w-14 fixed z-0 -left-20 mx-24  mt-44">-->
     <Logo class="z-10"/>
-    <ButtonBox class="z-10"/>
+    <ButtonBox />
     <Download class="z-10"/>
     <Footer class="z-30" />
     </div>

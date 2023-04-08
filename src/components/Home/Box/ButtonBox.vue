@@ -1,9 +1,15 @@
 <script setup></script>
 
 <template>
+  <div>
+    <h2 class="flex justify-center text-3xl m-4 max-md:text-2xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-l from-white to-[#FB4220]"> 
+      Experiência Profissional 
+    </h2>
+  </div>
   <div
     class="container flex items-center max-w-screen-4xl max-lg:flex gap-3 max-lg:flex-col p-3 max-md:p-6 place-items-stretch h-auto justify-center"
   >
+
     <button
       class="box-button flex justify-center p-6 flex-col shadow-md hover:transition hover:duration-300 hover:ease-in-out"
     >

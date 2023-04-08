@@ -179,7 +179,7 @@ const options = {
       <!-- Slider controls -->
       <button
         type="button"
-        class="absolute top-0 left-0 z-50 flex items-center justify-center h-full px-4 cursor-pointer focus:outline-none"
+        class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer focus:outline-none"
         data-carousel-prev
       >
         <span
@@ -238,7 +238,7 @@ const options = {
 
 .button {
   font-family: ubuntu mono;
-  font-weight: 500;
+
 }
 .button:hover {
   border: 3px solid #fb4220;
