@@ -9,19 +9,19 @@
     </h2>
   </div>
   <div
-    class="container flex items-center max-w-screen-4xl max-lg:flex gap-3 max-lg:flex-col p-3 max-md:p-6 place-items-stretch h-auto justify-center"
+    class="container flex  max-lg:items-center max-w-screen-4xl max-lg:flex gap-3 max-lg:flex-col place-items-stretch h-auto justify-center"
   >
     <div
       id="dropdownBottom"
-      class="z-50 hidden bg-[#111111] divide-y divide-gray-100 rounded-lg shadow w-80 dark:bg-gray-700"
+      class="z-50 hidden bg-[#2c2c2c] divide-y divide-gray-100 rounded-lg shadow w-80"
     >
       <ul
-        class="py-12 text-sm text-white dark:text-gray-200"
+        class="py-12 text-sm text-white"
         aria-labelledby="dropdownBottomButton"
       >
         <li>
           <a
-            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+            class="block px-4 py-2"
           >
             Metodologia Ágil e Planning Poker para o desenvolvimento das
             sprints; Desenvolvimento de APIs e MVC de sistemas usando Laravel,
@@ -34,7 +34,7 @@
       id="dropdownBottomButton"
       data-dropdown-toggle="dropdownBottom"
       data-dropdown-placement="bottom"
-      class="box-button flex-col mr-3 mb-3 md:mb-0 text-white border-1 focus:outline-none font-medium text-sm px-2.5 text-center inline-flex items-center"
+      class="box-button flex-col mr-3 mb-3 md:mb-0 text-white border-1 focus:outline-none font-medium text-sm px-2.5 text-center inline-flex"
       type="button"
     >
       <img
@@ -46,7 +46,7 @@
     </button>
     <div
       id="dropdownBottomI"
-      class="z-50 hidden bg-[#111111] divide-y divide-gray-100 rounded-lg shadow w-80 dark:bg-gray-700"
+      class="z-50 hidden bg-[#2c2c2c] divide-y divide-gray-100 rounded-lg shadow w-80 dark:bg-gray-700"
     >
       <ul
         class="py-12 text-sm text-white dark:text-gray-200"
@@ -54,7 +54,7 @@
       >
         <li>
           <a
-            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+            class="block px-4 py-2"
           >
             Desenvolvimento de animações digitais Criação de animações para
             logos, utilizando After Effects, Ilustrator, Photoshop e Adobe
@@ -69,7 +69,7 @@
       id="dropdownBottomButtonI"
       data-dropdown-toggle="dropdownBottomI"
       data-dropdown-placement="bottom"
-      class="box-button flex-col mr-3 mb-3 md:mb-0 text-white border-1 focus:outline-none font-medium text-sm px-2.5 text-center inline-flex items-center"
+      class="box-button flex-col mr-3 mb-3 md:mb-0 text-white border-1 focus:outline-none font-medium text-sm px-2.5 text-center inline-flex"
       type="button"
     >
       <img
@@ -81,7 +81,7 @@
     </button>
     <div
       id="dropdownBottomII"
-      class="z-50 hidden bg-[#111111] divide-y divide-gray-100 rounded-lg shadow w-80 dark:bg-gray-700"
+      class="z-50 hidden bg-[#2c2c2c] divide-y divide-gray-100 rounded-lg shadow w-80 dark:bg-gray-700"
     >
       <ul
         class="py-12 text-sm text-white dark:text-gray-200"
@@ -89,7 +89,7 @@
       >
         <li>
           <a
-            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+            class="block px-4 py-2"
           >
             Desenvolvimento de campanhas de marketing de alta qualidade:
             newsletters, apresentações, assets para mídia sociais, anúncios,
@@ -103,7 +103,7 @@
       id="dropdownBottomButtonII"
       data-dropdown-toggle="dropdownBottomII"
       data-dropdown-placement="bottom"
-      class="box-button flex-col mr-3 mb-3 md:mb-0 text-white border-1 focus:outline-none font-medium text-sm px-2.5 text-center inline-flex items-center"
+      class="box-button flex-col mr-3 mb-3 md:mb-0 text-white border-1 focus:outline-none font-medium text-sm px-2.5 text-center inline-flex"
       type="button"
     >
       <img
@@ -115,7 +115,7 @@
     </button>
     <div
       id="dropdownBottomIII"
-      class="z-50 hidden bg-[#111111] divide-y divide-gray-100 rounded-lg shadow w-80 dark:bg-gray-700"
+      class="z-50 hidden bg-[#2c2c2c] divide-y divide-gray-100 rounded-lg shadow w-80 dark:bg-gray-700"
     >
       <ul
         class="py-12 text-sm text-white dark:text-gray-200"
@@ -123,7 +123,7 @@
       >
         <li>
           <a
-            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+            class="block px-4 py-2"
           >
             Suporte a sistemas de informação e soluções tecnológicas, instalação
             e customização de softwares, suporte a toda a parte de hardware.
@@ -137,7 +137,7 @@
       id="dropdownBottomButtonII"
       data-dropdown-toggle="dropdownBottomIII"
       data-dropdown-placement="bottom"
-      class="box-button flex-col mr-3 mb-3 md:mb-0 text-white border-1 focus:outline-none font-medium text-sm px-2.5 text-center inline-flex items-center"
+      class="box-button flex-col mr-3 mb-3 md:mb-0 text-white border-1 focus:outline-none font-medium text-sm py-2.5 text-center inline-flex items-center"
       type="button"
     >
       <img
