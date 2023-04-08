@@ -2,51 +2,150 @@
 
 <template>
   <div>
-    <h2 class="flex justify-center text-3xl m-4 max-md:text-2xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-l from-white to-[#FB4220]"> 
-      Experiência Profissional 
+    <h2
+      class="flex justify-center text-3xl m-4 max-md:text-2xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-l from-white to-[#FB4220]"
+    >
+      Experiência Profissional
     </h2>
   </div>
   <div
     class="container flex items-center max-w-screen-4xl max-lg:flex gap-3 max-lg:flex-col p-3 max-md:p-6 place-items-stretch h-auto justify-center"
   >
-
+    <div
+      id="dropdownBottom"
+      class="z-50 hidden bg-[#111111] divide-y divide-gray-100 rounded-lg shadow w-80 dark:bg-gray-700"
+    >
+      <ul
+        class="py-12 text-sm text-white dark:text-gray-200"
+        aria-labelledby="dropdownBottomButton"
+      >
+        <li>
+          <a
+            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+          >
+            Metodologia Ágil e Planning Poker para o desenvolvimento das
+            sprints; Desenvolvimento de APIs e MVC de sistemas usando Laravel,
+            Vue.js, Node, Python;
+          </a>
+        </li>
+      </ul>
+    </div>
     <button
-      class="box-button flex justify-center p-6 flex-col shadow-md hover:transition hover:duration-300 hover:ease-in-out"
+      id="dropdownBottomButton"
+      data-dropdown-toggle="dropdownBottom"
+      data-dropdown-placement="bottom"
+      class="box-button flex-col mr-3 mb-3 md:mb-0 text-white border-1 focus:outline-none font-medium text-sm px-2.5 text-center inline-flex items-center"
+      type="button"
     >
       <img
         src="/src/assets/img/acquavero.png"
         alt=""
         class="flex flex-col w-24 m-2 items-center"
       />
-      <p class="flex flex-col text-white font-bold text-sm">
-        FULLSTACK DEVELOPER
-      </p>
+      FULLSTACK DEVELOPER
     </button>
-    <button class="box-button flex justify-center p-6 flex-col shadow-md">
+    <div
+      id="dropdownBottomI"
+      class="z-50 hidden bg-[#111111] divide-y divide-gray-100 rounded-lg shadow w-80 dark:bg-gray-700"
+    >
+      <ul
+        class="py-12 text-sm text-white dark:text-gray-200"
+        aria-labelledby="dropdownBottomButtonI"
+      >
+        <li>
+          <a
+            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+          >
+            Desenvolvimento de animações digitais Criação de animações para
+            logos, utilizando After Effects, Ilustrator, Photoshop e Adobe
+            Premiere. Criação de animações 2D, 3D e produção de efeitos visuais,
+            garantindo que todos os projetos fossem concluídos de acordo com o
+            orçamento e, em tempo hábil.
+          </a>
+        </li>
+      </ul>
+    </div>
+    <button
+      id="dropdownBottomButtonI"
+      data-dropdown-toggle="dropdownBottomI"
+      data-dropdown-placement="bottom"
+      class="box-button flex-col mr-3 mb-3 md:mb-0 text-white border-1 focus:outline-none font-medium text-sm px-2.5 text-center inline-flex items-center"
+      type="button"
+    >
       <img
         src="/src/assets/img/opennew.png"
         alt=""
         class="flex flex-col w-24 m-2 items-center"
       />
-      <p class="flex flex-col text-white font-bold text-sm">MOTION DESIGNER</p>
+      MOTION DESIGNER
     </button>
-    <button class="box-button flex justify-center p-6 flex-col shadow-md">
+    <div
+      id="dropdownBottomII"
+      class="z-50 hidden bg-[#111111] divide-y divide-gray-100 rounded-lg shadow w-80 dark:bg-gray-700"
+    >
+      <ul
+        class="py-12 text-sm text-white dark:text-gray-200"
+        aria-labelledby="dropdownBottomButtonII"
+      >
+        <li>
+          <a
+            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+          >
+            Desenvolvimento de campanhas de marketing de alta qualidade:
+            newsletters, apresentações, assets para mídia sociais, anúncios,
+            kvs. Criação de e-mails marketing, criação de protótipos utilizando
+            o figma e o pacote adobe.
+          </a>
+        </li>
+      </ul>
+    </div>
+    <button
+      id="dropdownBottomButtonII"
+      data-dropdown-toggle="dropdownBottomII"
+      data-dropdown-placement="bottom"
+      class="box-button flex-col mr-3 mb-3 md:mb-0 text-white border-1 focus:outline-none font-medium text-sm px-2.5 text-center inline-flex items-center"
+      type="button"
+    >
       <img
         src="/src/assets/img/open.png"
         alt=""
-        class="flex flex-col w-24 m-2"
+        class="flex flex-col w-24 m-2 items-center"
       />
-      <p class="flex flex-col text-white font-bold text-sm">GRAPHIC DESIGNER</p>
+      GRAPHIC DESIGNER
     </button>
-    <button class="box-button flex justify-center p-6 flex-col shadow-md">
+    <div
+      id="dropdownBottomIII"
+      class="z-50 hidden bg-[#111111] divide-y divide-gray-100 rounded-lg shadow w-80 dark:bg-gray-700"
+    >
+      <ul
+        class="py-12 text-sm text-white dark:text-gray-200"
+        aria-labelledby="dropdownBottomButtonIII"
+      >
+        <li>
+          <a
+            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+          >
+            Suporte a sistemas de informação e soluções tecnológicas, instalação
+            e customização de softwares, suporte a toda a parte de hardware.
+            Administração do sistema e procedimento de segurança de rede.
+            Gerenciamento do Servidor Linux.
+          </a>
+        </li>
+      </ul>
+    </div>
+    <button
+      id="dropdownBottomButtonII"
+      data-dropdown-toggle="dropdownBottomIII"
+      data-dropdown-placement="bottom"
+      class="box-button flex-col mr-3 mb-3 md:mb-0 text-white border-1 focus:outline-none font-medium text-sm px-2.5 text-center inline-flex items-center"
+      type="button"
+    >
       <img
         src="/src/assets/img/poloepaula.png"
         alt=""
         class="flex flex-col w-24 m-2 items-center"
       />
-      <p class="flex flex-col text-white font-bold text-sm">
-        IT SUPPORT ANALYST
-      </p>
+      IT SUPPORT ANALYST
     </button>
   </div>
 </template>
