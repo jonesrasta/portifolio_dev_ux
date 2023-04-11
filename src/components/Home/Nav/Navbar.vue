@@ -1,9 +1,9 @@
 <script setup></script>
 
 <template>
-  <div class="flex w-full max-w-screen-4xl justify-center">
-    <div class="container w-full bg-[#111111] z-50 max-w-screen-4xl ">
-      <div class="flex justify-between py-4 m-2 mx-1 max-md:mx-2">
+  <div class="header-menu flex w-full max-w-screen-4xl justify-center">
+    <div class="container z-40 stick w-full bg-[#111111] max-w-screen-4xl ">
+      <div class="flex justify-between py-2 m-2 max-md:mx-2">
         <img
           src="/src/assets/img/logo.svg"
           alt="logo Jones"
@@ -56,4 +56,10 @@
   font-size: 16px;
 }
 
+.header-menu {
+
+    position: sticky;
+    z-index: 11;
+    top: 0px;
+}
 </style>

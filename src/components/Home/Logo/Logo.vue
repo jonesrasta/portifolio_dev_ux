@@ -54,7 +54,7 @@ const options = {
 </script>
 
 <template>
-  <div class="container flex justify-center flex-col">
+  <div class="container relative flex justify-center flex-col">
     <div
       class="flex md:columns-2 mx-auto m-24 max-md:m-12 overflow-hidden z-20"
     ></div>
