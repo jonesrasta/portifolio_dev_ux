@@ -21,7 +21,7 @@
             </div>
         </div>
         <div>
-            <img src="/src/assets/img/jones1.png"  alt="">
+            <img src="/src/assets/img/jones4.png"  alt="">
         </div>
     </div>
 
