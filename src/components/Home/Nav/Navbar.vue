@@ -3,7 +3,7 @@ import { Collapse } from 'flowbite';
 </script>
 
 <template>
-  <nav class="nav bg-[#0d1016f8] w-full z-50 flex justify-center max-lg:justify-between px-4 h-24 fixed">
+  <nav class="bg-[#0d1016f8] w-full z-50 flex justify-center max-lg:justify-between px-5 h-24 fixed">
     <img src="/src/assets/img/logo_portifolio.webp" class="h-18 m-3 lg:hidden" alt="Flowbite Logo" />
     <button class="text-white justify-between lg:hidden z-40" type="button" data-drawer-target="drawer-right-example"
       data-drawer-show="drawer-right-example" data-drawer-placement="right" aria-controls="drawer-right-example">
@@ -65,7 +65,7 @@ import { Collapse } from 'flowbite';
           </ul>
 
           <a href="/" class="flex items-center justify-center my-6">
-            <img src="/src/assets/img/logo_portifolio.webp" alt="Logo Footer" class="w-16" />
+            <img src="/src/assets/img/logo_portifolio.webp" alt="Logo Footer" class="w-10" />
 
           </a>
           <div class="flex px-2 justify-center items-center space-x-3 my-0">
@@ -117,7 +117,7 @@ import { Collapse } from 'flowbite';
             class="text-white hover:text-[#6FF1A6]">Experience</a>
         </li>
         <a href="/" class="flex items-center">
-      <img src="/src/assets/img/logo_portifolio.webp" class="h-18 w-12 mr-3" alt="Flowbite Logo" />
+      <img src="/src/assets/img/logo_portifolio.webp" class="w-14 mr-3 p-3" alt="Flowbite Logo" />
     </a>
         <li>
           <a href="/clientes"

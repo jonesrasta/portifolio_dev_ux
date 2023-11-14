@@ -4,7 +4,7 @@
 <template>
 
 <section class="bg-[#0D1016] px-16 max-sm:px-6 py-16 max-md:py-40 max-lg:py-44">
-    <div class="py-4 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
+    <div class="px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
         <div class="flex flex-col justify-center">
             <h2 class="mb-4 text-4xl font-black tracking-tight text-white md:text-5xl lg:text-6xl dark:text-white leading-tight">Talk is cheap. <br/> Show me <span class="text-[#6FF1A6] leading-tight">the code.</span></h2>
             <p class="mb-8 text-lg font-normal text-gray-400 lg:text-xl dark:text-gray-400">Desenvolvedor Front-End dedicado, minha paixão reside na superação de desafios e na concepção de soluções eficazes.</p>

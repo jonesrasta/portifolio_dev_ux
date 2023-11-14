@@ -87,7 +87,7 @@
                 <h5 class="mb-2 text-xl font-semibold tracking-tight text-white">Flutter</h5>
             </a>
             <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                <div class="bg-[#6FF1A6] h-2.5 rounded-full" style="width: 45%"></div>
+                <div class="bg-[#6FF1A6] h-2.5 rounded-full" style="width: 40%"></div>
             </div>
 
         </div>
@@ -98,7 +98,7 @@
                 <h5 class="mb-2 text-xl font-semibold tracking-tight text-white">TypeScript</h5>
             </a>
             <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-                <div class="bg-[#6FF1A6] h-2.5 rounded-full" style="width: 42%"></div>
+                <div class="bg-[#6FF1A6] h-2.5 rounded-full" style="width: 32%"></div>
             </div>
 
         </div>

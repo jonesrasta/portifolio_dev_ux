@@ -5,6 +5,7 @@ import Footer from "./layout/Footer/Footer.vue"
 import ButtonBox from "./components/Home/Box/ButtonBox.vue";
 import Skills from "./components/Home/Skills/SoftSkills.vue"
 import Download from "./components/Home/Download/Download.vue";
+import Whatsapp from "./layout/Whatsapp/WhatsappButton.vue";
 
 
 
@@ -18,6 +19,7 @@ import Download from "./components/Home/Download/Download.vue";
     <ButtonBox />
    <Download />
     <Footer />
+    <Whatsapp />
 </div>
 </template>
 
