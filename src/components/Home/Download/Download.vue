@@ -4,56 +4,35 @@
 
 
 <template>
-    <div>
-  <div
-    class="container flex-col w-[1024px] m-8 max-md:w-80 flex items-center justify-center"
-  >
-      <p class="flex flex-col justify-center content-center text-white font-thin text-base mx-5 py-6 px-1 ">
+  <div>
+    <div
+      class="container bg-[#0D1016] flex-col w-[1024px] max-sm:p-8  mb-24 mx-auto max-md:w-80 flex items-center justify-center">
+      <p
+        class="flex flex-col justify-center max-sm:w-80 max-sm:px-6 content-center text-white font-thin text-base mx-28 mb-10 px-1 ">
         Fique à vontade para baixar o meu currículo em formato PDF e obter
         uma visão mais completa da minha carreira e habilidades. Estou ancioso
         para discutir oportunidades de trabalho, e como posso contribuir para o
-        sucesso da sua empresa. 
+        sucesso da sua empresa.
       </p>
-      <a
-        :href="'/files/Jones Lima.pdf'" download 
-        target="blank"
-        type="button"
-        class=" button text-white border-2 justify-between border-[#FB4220] items-center pl-10 rounded-full font-medium text-base h-14 w-60 inline-flex"
-      >
-        DOWNLOAD CV
-        <svg
-          class="icone flex justify-between z-auto"
-          width="56"
-          height="54"
-          viewBox="1 -3 44 54"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <ellipse cx="25" cy="24.5" rx="25" ry="24.5" fill="#1C1C1C" />
-          <path
-            d="M16.3823 25.103C16.3823 25.103 21.8396 30.8392 23.9656 33.0746C24.1425 33.2606 24.3771 33.3555 24.6129 33.3585C24.8487 33.3614 25.0846 33.2725 25.2676 33.0909C27.4514 30.9108 33.0592 25.3121 33.0592 25.3121C33.2397 25.133 33.3314 24.8949 33.3346 24.6557C33.3378 24.4127 33.2502 24.1698 33.0721 23.9825C32.7184 23.6091 32.1362 23.5993 31.7752 23.9612L25.5771 30.152L25.7672 15.952C25.7742 15.4307 25.3671 15.0025 24.8586 14.9961C24.3502 14.9898 23.9318 15.4076 23.9248 15.9289L23.7348 30.1289L17.7033 23.7835C17.3532 23.4152 16.7722 23.4117 16.4087 23.7748C16.2244 23.9589 16.1303 24.2007 16.127 24.4425C16.1238 24.6817 16.2091 24.9195 16.3823 25.103Z"
-            fill="#FB4220"
-          />
+      <a :href="'/files/Jones Lima.pdf'" download target="blank" type="button"
+        class="bg-[#6FF1A6] flex items-center rounded-full bg-primary py-3 px-5 text-lg font-medium leading-normal transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)]">
+        Download CV
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="mr-1 h-6 w-6 mx-2">
+          <path fill-rule="evenodd"
+            d="M19.5 21a3 3 0 003-3V9a3 3 0 00-3-3h-5.379a.75.75 0 01-.53-.22L11.47 3.66A2.25 2.25 0 009.879 3H4.5a3 3 0 00-3 3v12a3 3 0 003 3h15zm-6.75-10.5a.75.75 0 00-1.5 0v4.19l-1.72-1.72a.75.75 0 00-1.06 1.06l3 3a.75.75 0 001.06 0l3-3a.75.75 0 10-1.06-1.06l-1.72 1.72V10.5z"
+            clip-rule="evenodd" />
         </svg>
-        
       </a>
+    </div>
   </div>
-</div>
-
 </template>
 
 <style scoped>
 .container {
   height: 335px;
   background: rgba(217, 217, 217, 0.02);
-  box-shadow: 0px 4px 36px rgba(251, 66, 32, 0.28);
   backdrop-filter: blur(201.5px);
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 16px;
-}
-
-.button {
-    display: flex;
-
 }
 </style>

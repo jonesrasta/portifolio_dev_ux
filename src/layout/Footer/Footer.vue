@@ -1,12 +1,12 @@
 <template>
   
 
-  <footer class="bg-[#0b0d13]">
+  <footer class="bg-[#0D1016]">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <a href="https://flowbite.com/" class="flex items-center gap-x-2">
-                  <img src="/src/assets/img/logo_portifolio.webp" class="h-20" alt="FlowBite Logo" />
+                  <img src="/src/assets/img/logo.webp" class="h-20" alt="FlowBite Logo" />
                   <span class="self-center text-2xl font-semibold whitespace-nowrap text-white mt-4">Jones Lima</span>
               </a>
           </div>

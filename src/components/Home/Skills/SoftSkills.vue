@@ -4,12 +4,12 @@
 
 
 <template>
-    <div class="mt-14">
+    <div class="mt-14 mx-auto w-full h-full">
         <h2 class="text-[#6FF1A6] justify-center flex text-3xl font-bold mb-8">
             Skills
         </h2>
     </div>
-    <div class="bg-[#0D1016] flex px-4 gap-x-4 gap-y-6 max-md:flex-col justify-center items-center">
+    <div class="container bg-[#0D1016] mx-auto w-full h-full flex px-16 gap-x-4 gap-y-6 max-md:flex-col justify-center items-center">
 
         <div class="max-w-sm p-6 bg-[#161A22] rounded-lg shadow flex-col w-80">
             <img src="/src/assets/img/skills/vue.png" alt="" class="h-12 shadow-2xl">
@@ -68,7 +68,7 @@
     </div>
 
 
-    <div class="bg-[#0D1016] flex px-4 gap-x-4 py-4 gap-y-6 max-md:flex-col justify-center items-center my-2">
+    <div class="container bg-[#0D1016] mx-auto w-full h-full flex px-16 gap-x-4 py-4 gap-y-6 max-md:flex-col justify-center items-center my-2">
 
         <div class="max-w-sm p-6 bg-[#161A22] rounded-lg shadow flex-col w-80">
             <img src="/src/assets/img/skills/figma.png" alt="" class="h-12 shadow-2xl">

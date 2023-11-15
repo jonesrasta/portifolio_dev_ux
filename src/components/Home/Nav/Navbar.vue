@@ -1,10 +1,10 @@
 <script setup>
-import { Collapse } from 'flowbite';
+
 </script>
 
 <template>
   <nav class="bg-[#0d1016f8] w-full z-50 flex justify-center max-lg:justify-between px-5 h-24 fixed">
-    <img src="/src/assets/img/logo_portifolio.webp" class="h-18 m-3 lg:hidden" alt="Flowbite Logo" />
+    <img src="/src/assets/img/logo.webp" class="h-18 m-3 lg:hidden" alt="Flowbite Logo" />
     <button class="text-white justify-between lg:hidden z-40" type="button" data-drawer-target="drawer-right-example"
       data-drawer-show="drawer-right-example" data-drawer-placement="right" aria-controls="drawer-right-example">
       <span class="sr-only">Open main menu</span>
@@ -65,7 +65,7 @@ import { Collapse } from 'flowbite';
           </ul>
 
           <a href="/" class="flex items-center justify-center my-6">
-            <img src="/src/assets/img/logo_portifolio.webp" alt="Logo Footer" class="w-10" />
+            <img src="/src/assets/img/logo.webp" alt="Logo Footer" class="w-10" />
 
           </a>
           <div class="flex px-2 justify-center items-center space-x-3 my-0">
@@ -110,14 +110,14 @@ import { Collapse } from 'flowbite';
       <div class="flex max-lg:hidden">
       <ul class="font-medium flex p-4 md:p-0 mt-4 md:space-x-16 md:mt-0 justify-center items-center">
         <li>
-          <a href="/" class="block py-2 pl-3 pr-4 text-white md:p-0 dark:text-white" aria-current="page">Skills</a>
+          <a href="/" class="block py-2 pl-3 pr-4 text-white md:p-0 active:text-[#6FF1A6]" aria-current="page">Skills</a>
         </li>
         <li>
           <a href="/servicos"
             class="text-white hover:text-[#6FF1A6]">Experience</a>
         </li>
         <a href="/" class="flex items-center">
-      <img src="/src/assets/img/logo_portifolio.webp" class="w-14 mr-3 p-3" alt="Flowbite Logo" />
+      <img src="/src/assets/img/logo.webp" class="w-14 mr-3 p-3" alt="Flowbite Logo" />
     </a>
         <li>
           <a href="/clientes"
@@ -135,5 +135,4 @@ import { Collapse } from 'flowbite';
 </template>
 
 <style scoped>
-
 </style>

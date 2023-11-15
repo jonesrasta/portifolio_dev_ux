@@ -12,14 +12,16 @@ import Whatsapp from "./layout/Whatsapp/WhatsappButton.vue";
 </script>
 
 <template>
-    <div class="bg-[#0D1016]">
     <Navbar />
+    <div class="bg-[#0D1016] ">
+    <div class="container mx-auto">
     <Logo />
     <Skills />
     <ButtonBox />
    <Download />
     <Footer />
     <Whatsapp />
+</div>
 </div>
 </template>
 

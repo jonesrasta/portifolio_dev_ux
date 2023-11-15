@@ -3,8 +3,7 @@
 </script>
 
 <template>
-    <div class=" max-w-2xl">
-    <div class="btn-whatsapp-pulse transition hover:duration-150 ease-in-out flex items-center justify-center  max-sm:flex-col bottom-4 fixed z-40 h-10  rounded-full w-40 bg-[#6FF1A6] 
+    <div class="btn-whatsapp-pulse transition hover:duration-150 ease-in-out flex items-center justify-center max-sm:flex-col bottom-4 fixed z-40 h-10 rounded-full w-40 bg-[#6FF1A6] shadow
         p-4 mx-6 -right-2 max-sm:w-[65px] max-sm:h-24 max-sm:rounded-2xl">
         <a href="https://wa.me/+5511919864627" target="_blank"
             class="flex max-sm:flex-col max-sm:justify-center max-sm:items-center ">
@@ -17,7 +16,11 @@
             <p class="flex text-sm font-semibold max-sm:-mt-7 bg-white rounded-lg text-[#6FF1A6] sm:hidden">Online</p>
         </a>
     </div>
-</div>
+
+
+
+
+
 </template>
 
 <style scoped>
