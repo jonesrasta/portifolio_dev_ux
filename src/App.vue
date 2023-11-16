@@ -1,10 +1,11 @@
 <script setup>
-import Navbar from "./components/Home/Nav/Navbar.vue";
+import Navbar from "./layout/Nav/Navbar.vue";
 import Logo from "./components/Home/Logo/Logo.vue";
-import Footer from "./layout/Footer/Footer.vue"
-import ButtonBox from "./components/Home/Box/ButtonBox.vue";
-import Skills from "./components/Home/Skills/SoftSkills.vue"
+import Timeline from "./components/Home/Timeline/TimeLine.vue";
+import Skills from "./components/Home/Skills/SoftSkills.vue";
+import Contact from "./components/Home/Contact/Contact.vue";
 import Download from "./components/Home/Download/Download.vue";
+import Footer from "./layout/Footer/Footer.vue"
 import Whatsapp from "./layout/Whatsapp/WhatsappButton.vue";
 
 
@@ -14,17 +15,16 @@ import Whatsapp from "./layout/Whatsapp/WhatsappButton.vue";
 <template>
     <Navbar />
     <div class="bg-[#0D1016] ">
-    <div class="container mx-auto">
-    <Logo />
-    <Skills />
-    <ButtonBox />
-   <Download />
-    <Footer />
-    <Whatsapp />
-</div>
-</div>
+        <div class="container mx-auto">
+            <Logo />
+            <Skills />
+            <Timeline />
+            <Contact />
+            <Download />
+            <Footer />
+            <Whatsapp />
+        </div>
+    </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

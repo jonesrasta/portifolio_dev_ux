@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="bg-[#0D1016] py-32 container mx-auto">
+  <div class="bg-[#0D1016] py-28 max-sm:py-14 container mx-auto">
     <h2 class="text-[#6FF1A6] justify-center flex text-3xl font-bold mb-6">
       Timeline
     </h2>
@@ -17,7 +17,7 @@
               tarefas definidas em sprints; Canal de comunicação online feito via Discord
             </p>
           </div>
-          <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+          <div class="col-start-5 col-end-6 md:mx-auto relative mr-6">
             <div class="h-full w-6 flex items-center justify-center">
               <div class="h-full w-0.5 bg-[#6FF1A6] pointer-events-none"></div>
             </div>
@@ -32,7 +32,7 @@
             </div>
             <div class="w-6 h-6 absolute top-1/2 -mt-3 border-2 border-[#6FF1A6] rounded-full bg-gray-100 shadow "></div>
           </div>
-          <div class="w-full col-start-6 col-end-10 my-4 mr-auto p-6 bg-[#161A22] rounded-xl">
+          <div class="w-full col-start-6 col-end-10 my-4 max-sm:-ml-4 -ml-4 p-6 bg-[#161A22] rounded-xl">
             <img src="/src/assets/img/openn.png" alt="" class="w-38 mb-4 mx-2">
             <h2 class="text-white text-lg font-medium mb-2">Graphic Designer | Motion Designer</h2>
             <p class="text-gray-400">Desenvolvimento de animações digitais para vídeos do youtube, garantindo os
@@ -50,7 +50,7 @@
               de softwares, suporte a toda a parte de hardware. Administração do sistema e procedimento de segurança
               de rede. Gerenciamento do Servidor Linux. Administração todo ambiente de rede</p>
           </div>
-          <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+          <div class="col-start-5 col-end-6 md:mx-auto relative mr-6">
             <div class="h-full w-6 flex items-center justify-center">
               <div class="h-full w-0.5 bg-[#6FF1A6] pointer-events-none"></div>
             </div>
