@@ -3,7 +3,7 @@ import { Collapse } from 'flowbite';
 </script>
 
 <template>
-  <nav class="bg-[#0d1016f8] w-full z-50 flex backdrop-blur-md justify-center max-lg:justify-between px-5 h-24 fixed">
+  <nav class="bg-[#0d1016c2] w-full z-50 flex backdrop-blur-md justify-center max-lg:justify-between px-5 h-24 fixed">
     <img src="/src/assets/img/logo.webp" class="h-18 m-3 lg:hidden" alt="Flowbite Logo" />
     <button class="text-white justify-between lg:hidden z-40" type="button" data-drawer-target="drawer-right-example"
       data-drawer-show="drawer-right-example" data-drawer-placement="right" aria-controls="drawer-right-example">
