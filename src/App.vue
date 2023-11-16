@@ -5,6 +5,7 @@ import Timeline from "./components/Home/Timeline/TimeLine.vue";
 import Skills from "./components/Home/Skills/SoftSkills.vue";
 import Contact from "./components/Home/Contact/Contact.vue";
 import Download from "./components/Home/Download/Download.vue";
+// import Cards from "./components/Home/Cards/Cards.vue";
 import Footer from "./layout/Footer/Footer.vue"
 import Whatsapp from "./layout/Whatsapp/WhatsappButton.vue";
 
@@ -21,6 +22,7 @@ import Whatsapp from "./layout/Whatsapp/WhatsappButton.vue";
             <Timeline />
             <Contact />
             <Download />
+            <!-- <Cards /> -->
             <Footer />
             <Whatsapp />
         </div>
