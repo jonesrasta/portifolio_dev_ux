@@ -78,7 +78,7 @@ spotlights.forEach((spotlight) => {
                     <div class="relative inline-flex">
                         <div class="w-[40%] h-[40%] absolute inset-0 m-auto -translate-y-[10%] blur-3xl -z-10 rounded-full bg-indigo-600"
                             aria-hidden="true"></div>
-                        <img class="inline-flex" src="/src/assets/img/cards/vuejs.png" width="200" height="200"
+                        <img class="inline-flex" src="/src/assets/img/cards/vuejs.webp" width="200" height="200"
                             alt="Card 01" />
                     </div>
                     <!-- Text -->
@@ -105,7 +105,7 @@ spotlights.forEach((spotlight) => {
                     <div class="relative inline-flex">
                         <div class="w-[40%] h-[40%] absolute inset-0 m-auto -translate-y-[10%] blur-3xl -z-10 rounded-full bg-indigo-600"
                             aria-hidden="true"></div>
-                        <img class="inline-flex" src="/src/assets/img/cards/js.png" width="200" height="200"
+                        <img class="inline-flex" src="/src/assets/img/cards/js.webp" width="200" height="200"
                             alt="Card 02" />
                     </div>
                     <!-- Text -->
@@ -132,7 +132,7 @@ spotlights.forEach((spotlight) => {
                     <div class="relative inline-flex">
                         <div class="w-[40%] h-[40%] absolute inset-0 m-auto -translate-y-[10%] blur-3xl -z-10 rounded-full bg-indigo-600"
                             aria-hidden="true"></div>
-                        <img class="inline-flex" src="/src/assets/img/cards/html.png" width="200" height="200"
+                        <img class="inline-flex" src="/src/assets/img/cards/html.webp" width="200" height="200"
                             alt="Card 03" />
                     </div>
                     <!-- Text -->
@@ -159,7 +159,7 @@ spotlights.forEach((spotlight) => {
                     <div class="relative inline-flex">
                         <div class="w-[40%] h-[40%] absolute inset-0 m-auto -translate-y-[10%] blur-3xl -z-10 rounded-full bg-indigo-600"
                             aria-hidden="true"></div>
-                        <img class="inline-flex" src="/src/assets/img/cards/css.png" width="200" height="200"
+                        <img class="inline-flex" src="/src/assets/img/cards/css.webp" width="200" height="200"
                             alt="Card 04" />
                     </div>
                     <!-- Text -->
@@ -186,7 +186,7 @@ spotlights.forEach((spotlight) => {
                     <div class="relative inline-flex">
                         <div class="w-[40%] h-[40%] absolute inset-0 m-auto -translate-y-[10%] blur-3xl -z-10 rounded-full bg-indigo-600"
                             aria-hidden="true"></div>
-                        <img class="inline-flex" src="/src/assets/img/cards/tailwind.png" width="200" height="200"
+                        <img class="inline-flex" src="/src/assets/img/cards/tailwind.webp" width="200" height="200"
                             alt="Card 05" />
                     </div>
                     <!-- Text -->
@@ -213,7 +213,7 @@ spotlights.forEach((spotlight) => {
                     <div class="relative inline-flex">
                         <div class="w-[40%] h-[40%] absolute inset-0 m-auto -translate-y-[10%] blur-3xl -z-10 rounded-full bg-indigo-600"
                             aria-hidden="true"></div>
-                        <img class="inline-flex" src="/src/assets/img/cards/figma.png" width="200" height="200"
+                        <img class="inline-flex" src="/src/assets/img/cards/figma.webp" width="200" height="200"
                             alt="Card 06" />
                     </div>
                     <!-- Text -->
@@ -240,7 +240,7 @@ spotlights.forEach((spotlight) => {
                     <div class="relative inline-flex">
                         <div class="w-[40%] h-[40%] absolute inset-0 m-auto -translate-y-[10%] blur-3xl -z-10 rounded-full bg-indigo-600"
                             aria-hidden="true"></div>
-                        <img class="inline-flex" src="/src/assets/img/cards/flutter.png" width="200" height="200"
+                        <img class="inline-flex" src="/src/assets/img/cards/flutter.webp" width="200" height="200"
                             alt="Card 07" />
                     </div>
                     <!-- Text -->
@@ -267,7 +267,7 @@ spotlights.forEach((spotlight) => {
                     <div class="relative inline-flex">
                         <div class="w-[40%] h-[40%] absolute inset-0 m-auto -translate-y-[10%] blur-3xl -z-10 rounded-full bg-indigo-600"
                             aria-hidden="true"></div>
-                        <img class="inline-flex" src="/src/assets/img/cards/ts.png" width="200" height="200"
+                        <img class="inline-flex" src="/src/assets/img/cards/ts.webp" width="200" height="200"
                             alt="Card 08" />
                     </div>
                     <!-- Text -->
@@ -294,7 +294,7 @@ spotlights.forEach((spotlight) => {
                     <div class="relative inline-flex">
                         <div class="w-[40%] h-[40%] absolute inset-0 m-auto -translate-y-[10%] blur-3xl -z-10 rounded-full bg-indigo-600"
                             aria-hidden="true"></div>
-                        <img class="inline-flex" src="/src/assets/img/cards/github.png" width="200" height="200"
+                        <img class="inline-flex" src="/src/assets/img/cards/github.webp" width="200" height="200"
                             alt="Card 09" />
                     </div>
                     <!-- Text -->
@@ -321,7 +321,7 @@ spotlights.forEach((spotlight) => {
                     <div class="relative inline-flex">
                         <div class="w-[40%] h-[40%] absolute inset-0 m-auto -translate-y-[10%] blur-3xl -z-10 rounded-full bg-indigo-600"
                             aria-hidden="true"></div>
-                        <img class="inline-flex" src="/src/assets/img/cards/react.png" width="200" height="200"
+                        <img class="inline-flex" src="/src/assets/img/cards/react.webp" width="200" height="200"
                             alt="Card 10" />
                     </div>
                     <!-- Text -->

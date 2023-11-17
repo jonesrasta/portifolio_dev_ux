@@ -80,7 +80,7 @@ spotlights.forEach((spotlight) => {
                 </div>
             </div>
             <div>
-                <img src="/src/assets/img/jones4.png" alt="" class="ml-4">
+                <img src="/src/assets/img/jones4.webp" alt="" class="ml-4">
             </div>
         </div>
 

@@ -10,7 +10,7 @@
                     <h2 class="text-3xl font-bold leading-tight">Lets talk about everything!</h2>
                 </div>
                 <div class="mt-8 text-center order-2">
-                    <img src="/src/assets/img/jones5.png" alt="" class="-ml-10 max-md:hidden">
+                    <img src="/src/assets/img/jones5.webp" alt="" class="-ml-10 max-md:hidden">
                 </div>
             </div>
             <div class="my-4 text-black max-sm:my-0">
