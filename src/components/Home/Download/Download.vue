@@ -6,7 +6,7 @@
 <template>
   <div class="mx-auto container mb-16">
     <div
-      class="bg-[#161A22] rounded-md shadow flex-col max-sm:p-8 flex items-center justify-center mx-8 h-80 max-sm:h-96 max-sm:mx-8">
+      class="border border-[#ffffff1c] bg-[#252a3369] hover:border-l-[#ffffff42] hover:border-t-[#ffffff42] rounded-xl shadow flex-col max-sm:p-8 flex items-center justify-center mx-8 h-80 max-sm:h-96 max-sm:mx-8">
       <p
         class="flex flex-col justify-center max-sm:w-80 max-sm:px-6 content-center w-[860px] my-10 max-lg:w-[460px] text-gray-400 font-thin text-lg max-sm:text-base">
         Fique à vontade para baixar o meu currículo em formato PDF e obter

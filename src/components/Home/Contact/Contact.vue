@@ -4,7 +4,7 @@
 <template>
     <div class="container bg-[#0D1016] mb-8 mx-auto px-8">
         <div
-            class="mt-20 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-14 mx-auto bg-[#161A22] text-white rounded-lg shadow-lg">
+            class="mt-20 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-14 mx-auto border border-[#ffffff1c] bg-[#252a3369] hover:border-l-[#ffffff42] hover:border-t-[#ffffff42] rounded-xl text-white shadow-lg">
             <div class="flex flex-col justify-between">
                 <div>
                     <h2 class="text-3xl font-bold leading-tight">Lets talk about everything!</h2>
