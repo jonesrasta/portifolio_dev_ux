@@ -5,15 +5,17 @@
 
 <template>
   <div class="mx-auto container mb-16">
+    <h2 class="text-[#6FF1A6] text-center text-3xl font-bold mb-8">
+            Downloand
+    </h2>
     <div
-      class="border border-[#ffffff1c] bg-[#252a3369] hover:border-l-[#ffffff42] hover:border-t-[#ffffff42] rounded-xl shadow flex-col max-sm:p-8 flex items-center justify-center mx-8 h-80 max-sm:h-96 max-sm:mx-8">
+      class="border border-[#ffffff1c] bg-[#252a3369] border-l-[#ffffff42] border-t-[#ffffff42] rounded-xl shadow flex-col max-sm:p-8 flex items-center justify-center mx-8 h-60 max-sm:h-72 max-sm:mx-8">
       <p
-        class="flex flex-col justify-center max-sm:w-80 max-sm:px-6 content-center w-[860px] my-10 max-lg:w-[460px] text-gray-400 font-thin text-lg max-sm:text-base">
+        class="flex flex-col justify-center max-sm:w-80 max-sm:px-6 content-center max-w-lg my-8 mt-4  max-lg:w-[460px] text-gray-400 text-lg max-sm:text-base">
         Fique à vontade para baixar o meu currículo em formato PDF e obter
-        uma visão mais completa da minha carreira e habilidades. Estou ancioso
-        para discutir oportunidades de trabalho, e como posso contribuir para o
-        sucesso da sua empresa.
+        uma visão mais completa da minha carreira e habilidades.
       </p>
+      <button>
       <a :href="'/files/Jones Lima.pdf'" download target="blank" type="button"
         class="bg-[#6FF1A6] flex items-center rounded-full bg-primary py-3 px-8 text-lg font-medium transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)]">
         Download CV
@@ -23,6 +25,7 @@
             clip-rule="evenodd" />
         </svg>
       </a>
+    </button>
     </div>
   </div>
 </template>
