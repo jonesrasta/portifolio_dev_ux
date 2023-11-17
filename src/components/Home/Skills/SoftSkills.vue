@@ -56,13 +56,13 @@ spotlights.forEach((spotlight) => {
 </script>
 
 <template>
-    <div class="mt-14 mx-auto w-full h-full py-8">
+    <div class="mt-14 mx-auto w-full h-full py-8 max-sm:py-4">
         <h2 class="text-[#6FF1A6] justify-center flex text-3xl font-bold mb-8">
             Skills
         </h2>
     </div>
     <div class="relative antialiased">
-    <div class=" bg-[#0D1016] mx-auto antialiased w-full h-full grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 max-sm:grid-cols-2 grid gap-x-4 gap-y-6 px-16 justify-center items-center group"
+    <div class=" bg-[#0D1016] mx-auto w-full h-full grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 max-sm:grid-cols-2 grid gap-x-4 gap-y-6 px-16 max-sm:px-6 justify-center items-center group"
         data-spotlight>
         <!-- Card 1 -->
         <div
