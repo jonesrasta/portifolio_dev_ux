@@ -13,7 +13,7 @@ import { Collapse } from 'flowbite';
       </svg>
     </button>
     <div id="drawer-right-example"
-      class="fixed top-0 right-0 z-40 h-screen w-64 p-4 overflow-y-auto transition-transform translate-x-full duration-150 bg-[#0d1016f8] lg:hidden rounded-2xl"
+      class="fixed top-0 right-0 z-40 h-screen w-64 p-4 overflow-y-auto transition-transform translate-x-full duration-150 bg-[#0d1016ee] lg:hidden rounded-2xl"
       tabindex="-1" aria-labelledby="drawer-right-label">
       <div class="flex flex-col my-28">
         <ul class="space-y-2 font-medium py-2 overflow-y-auto">
@@ -99,7 +99,7 @@ import { Collapse } from 'flowbite';
       </div>
       <button type="button" data-drawer-hide="drawer-right-example" aria-controls="drawer-right-example"
         class="text-gray-400 rounded-lg text-sm w-8 h-8 absolute top-8 right-4 inline-flex items-center justify-center">
-        <svg class="bg-neutral-900 w-12 h-6" width="16" height="16" viewBox="0 0 24 24" fill="none"
+        <svg class="bg-[#0d1016ee] w-12 h-6" width="16" height="16" viewBox="0 0 24 24" fill="none"
           xmlns="http://www.w3.org/2000/svg">
           <path
             d="M24 20.188L15.685 11.979L23.885 3.697L20.188 0L11.976 8.318L3.666 0.115L0 3.781L8.321 12.021L0.115 20.334L3.781 24L12.018 15.682L20.303 23.885L24 20.188Z"
