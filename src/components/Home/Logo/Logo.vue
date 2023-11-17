@@ -86,58 +86,37 @@ spotlights.forEach((spotlight) => {
 
 
     </section>
-    <!-- <div class="container bg-[#0D1016] mx-auto w-full h-full flex justify-center items-center px-16 max-sm:px-4 py-12 md:py-4 max-sm:-mt-24 lg:mt-8">
-                    <div class="p-4 bg-[#161A22] rounded-xl md:p-8 w-full -mt-32 sm:-mt-48 md:-mt-48">
-                        <dl class="grid grid-cols-2 gap-8 p-4 mx-auto text-[#6FF1A6] xl:grid-cols-4 sm:p-8">
-                            <div class="flex flex-col items-center justify-center">
-                                <dt class="mb-2 text-3xl font-extrabold">73M+</dt>
-                                <dd class="text-gray-400">Developers</dd>
-                            </div>
-                            <div class="flex flex-col items-center justify-center">
-                                <dt class="mb-2 text-3xl font-extrabold">100M+</dt>
-                                <dd class="text-gray-400">Repositories</dd>
-                            </div>
-                            <div class="flex flex-col items-center justify-center">
-                                <dt class="mb-2 text-3xl font-extrabold">1000s</dt>
-                                <dd class="text-gray-400">Projects</dd>
-                            </div>
-                            <div class="flex flex-col items-center justify-center">
-                                <dt class="mb-2 text-3xl font-extrabold">1B+</dt>
-                                <dd class="text-gray-400">Works</dd>
-                            </div>
-                        </dl>
+
+    <div class="group" data-spotlight>
+        <div
+            class="mx-4 -mt-36 max-lg:-mt-44 relative bg-[#252a33] rounded-2xl p-px before:absolute before:w-80 before:h-80 before:-left-40 before:-top-40 before:bg-slate-400 before:rounded-full before:opacity-0 before:pointer-events-none before:transition-opacity before:duration-500 before:translate-x-[var(--mouse-x)] before:translate-y-[var(--mouse-y)] before:group-hover:opacity-100 before:z-10 before:blur-[100px] after:absolute after:w-96 after:h-96 after:-left-48 after:-top-48 after:bg-[#5ff89f] after:rounded-full after:opacity-0 after:pointer-events-none after:transition-opacity after:duration-500 after:translate-x-[var(--mouse-x)] after:translate-y-[var(--mouse-y)] after:hover:opacity-10 after:z-30 after:blur-[100px] overflow-hidden">
+            <div class="relative h-full bg-[#161A22] p-6 pb-8 rounded-[inherit] z-20 overflow-hidden">
+                <!-- Radial gradient -->
+                <div class="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/2 aspect-square"
+                    aria-hidden="true">
+                    <div class="absolute inset-0 translate-z-0 bg-[#303744] rounded-full blur-[80px]">
+
                     </div>
-                </div> -->
-
-
-    <div
-        class="mx-4 -mt-36 max-lg:-mt-44 relative bg-[#252a33] rounded-2xl p-px before:absolute before:w-80 before:h-80 before:-left-40 before:-top-40 before:bg-slate-400 before:rounded-full before:opacity-0 before:pointer-events-none before:transition-opacity before:duration-500 before:translate-x-[var(--mouse-x)] before:translate-y-[var(--mouse-y)] before:group-hover:opacity-100 before:z-10 before:blur-[100px] after:absolute after:w-96 after:h-96 after:-left-48 after:-top-48 after:bg-[#5ff89f] after:rounded-full after:opacity-0 after:pointer-events-none after:transition-opacity after:duration-500 after:translate-x-[var(--mouse-x)] after:translate-y-[var(--mouse-y)] after:hover:opacity-10 after:z-30 after:blur-[100px] overflow-hidden">
-        <div class="relative h-full bg-[#161A22] p-6 pb-8 rounded-[inherit] z-20 overflow-hidden">
-            <!-- Radial gradient -->
-            <div class="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/2 aspect-square"
-                aria-hidden="true">
-                <div class="absolute inset-0 translate-z-0 bg-[#303744] rounded-full blur-[80px]">
-
                 </div>
-            </div>
 
-            <div
-                class="mx-auto justify-center items-center px-16 max-sm:px-4 md:py-4 lg:mt-8 grid grid-cols-2 gap-8 p-4 text-[#6FF1A6] xl:grid-cols-4 sm:p-8">
-                <div class="flex flex-col items-center justify-center">
-                    <h2 class="mb-2 text-3xl font-extrabold">73M+</h2>
-                    <p class="text-gray-400">Developers</p>
-                </div>
-                <div class="flex flex-col items-center justify-center">
-                    <h2 class="mb-2 text-3xl font-extrabold">100M+</h2>
-                    <p class="text-gray-400">Repositories</p>
-                </div>
-                <div class="flex flex-col items-center justify-center">
-                    <h2 class="mb-2 text-3xl font-extrabold">1000s</h2>
-                    <p class="text-gray-400">Projects</p>
-                </div>
-                <div class="flex flex-col items-center justify-center">
-                    <h2 class="mb-2 text-3xl font-extrabold">1B+</h2>
-                    <p class="text-gray-400">Works</p>
+                <div
+                    class="mx-auto justify-center items-center px-16 max-sm:px-4 md:py-4 lg:mt-8 grid grid-cols-2 gap-8 p-4 text-[#6FF1A6] xl:grid-cols-4 sm:p-8">
+                    <div class="flex flex-col items-center justify-center">
+                        <h2 class="mb-2 text-3xl font-extrabold">500+</h2>
+                        <p class="text-gray-400">Contributions</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-center">
+                        <h2 class="mb-2 text-3xl font-extrabold">20+</h2>
+                        <p class="text-gray-400">Repositories</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-center">
+                        <h2 class="mb-2 text-3xl font-extrabold">10+</h2>
+                        <p class="text-gray-400">Projects</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-center">
+                        <h2 class="mb-2 text-3xl font-extrabold">05+</h2>
+                        <p class="text-gray-400">Works</p>
+                    </div>
                 </div>
             </div>
         </div>

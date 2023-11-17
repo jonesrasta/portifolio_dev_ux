@@ -1,66 +1,68 @@
 <script setup>
 // Cards spotlight
 class Spotlight {
-    constructor(containerElement) {
-        this.container = containerElement;
-        this.cards = Array.from(this.container.children);
-        this.mouse = {
-            x: 0,
-            y: 0,
-        };
-        this.containerSize = {
-            w: 0,
-            h: 0,
-        };
-        this.initContainer = this.initContainer.bind(this);
-        this.onMouseMove = this.onMouseMove.bind(this);
-        this.init();
-    }
+  constructor(containerElement) {
+    this.container = containerElement;
+    this.cards = Array.from(this.container.children);
+    this.mouse = {
+      x: 0,
+      y: 0,
+    };
+    this.containerSize = {
+      w: 0,
+      h: 0,
+    };
+    this.initContainer = this.initContainer.bind(this);
+    this.onMouseMove = this.onMouseMove.bind(this);
+    this.init();
+  }
 
-    initContainer() {
-        this.containerSize.w = this.container.offsetWidth;
-        this.containerSize.h = this.container.offsetHeight;
-    }
+  initContainer() {
+    this.containerSize.w = this.container.offsetWidth;
+    this.containerSize.h = this.container.offsetHeight;
+  }
 
-    onMouseMove(event) {
-        const { clientX, clientY } = event;
-        const rect = this.container.getBoundingClientRect();
-        const { w, h } = this.containerSize;
-        const x = clientX - rect.left;
-        const y = clientY - rect.top;
-        const inside = x < w && x > 0 && y < h && y > 0;
-        if (inside) {
-            this.mouse.x = x;
-            this.mouse.y = y;
-            this.cards.forEach((card) => {
-                const cardX = -(card.getBoundingClientRect().left - rect.left) + this.mouse.x;
-                const cardY = -(card.getBoundingClientRect().top - rect.top) + this.mouse.y;
-                card.style.setProperty('--mouse-x', `${cardX}px`);
-                card.style.setProperty('--mouse-y', `${cardY}px`);
-            });
-        }
+  onMouseMove(event) {
+    const { clientX, clientY } = event;
+    const rect = this.container.getBoundingClientRect();
+    const { w, h } = this.containerSize;
+    const x = clientX - rect.left;
+    const y = clientY - rect.top;
+    const inside = x < w && x > 0 && y < h && y > 0;
+    if (inside) {
+      this.mouse.x = x;
+      this.mouse.y = y;
+      this.cards.forEach((card) => {
+        const cardX = -(card.getBoundingClientRect().left - rect.left) + this.mouse.x;
+        const cardY = -(card.getBoundingClientRect().top - rect.top) + this.mouse.y;
+        card.style.setProperty('--mouse-x', `${cardX}px`);
+        card.style.setProperty('--mouse-y', `${cardY}px`);
+      });
     }
+  }
 
-    init() {
-        this.initContainer();
-        window.addEventListener('mousemove', this.onMouseMove);
-    }
+  init() {
+    this.initContainer();
+    window.addEventListener('resize', this.initContainer);
+    window.addEventListener('mousemove', this.onMouseMove);
+  }
 }
 
 // Init Spotlight
 const spotlights = document.querySelectorAll('[data-spotlight]');
 spotlights.forEach((spotlight) => {
-    new Spotlight(spotlight);
+  new Spotlight(spotlight);
 });
 </script>
 
 <template>
-    <div class="mt-14 mx-auto w-full h-full">
+    <div class="mt-14 mx-auto w-full h-full py-8">
         <h2 class="text-[#6FF1A6] justify-center flex text-3xl font-bold mb-8">
             Skills
         </h2>
     </div>
-    <div class=" bg-[#0D1016] mx-auto w-full h-full grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 max-sm:grid-cols-1 grid gap-x-4 gap-y-6 px-16 justify-center items-center group"
+    <div class="relative antialiased">
+    <div class=" bg-[#0D1016] mx-auto antialiased w-full h-full grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 max-sm:grid-cols-2 grid gap-x-4 gap-y-6 px-16 justify-center items-center group"
         data-spotlight>
         <!-- Card 1 -->
         <div
@@ -333,6 +335,7 @@ spotlights.forEach((spotlight) => {
             </div>
         </div>
     </div>
+</div>
 </template>
 
 <style scoped></style>
