@@ -64,7 +64,7 @@ spotlights.forEach((spotlight) => {
                 <p class="mb-8 text-lg font-normal text-gray-400 lg:text-xl dark:text-gray-400">Desenvolvedor Front-End
                     dedicado, minha paixão reside na superação de desafios e na concepção de soluções eficazes.</p>
                 <div class="flex flex-col sm:flex-row sm:space-y-0 space-x-6 max-sm:space-y-6">
-                    <a href="#"
+                    <a href="https://wa.me/+5511955509876" target="_blank"
                         class="inline-flex justify-center items-center py-3 px-8 text-lg font-medium text-center rounded-full bg-[#6FF1A6] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)]">
                         Saiba mais
                         <svg class="w-4 h-4 ml-3 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -73,8 +73,8 @@ spotlights.forEach((spotlight) => {
                                 d="M1 5h12m0 0L9 1m4 4L9 9" />
                         </svg>
                     </a>
-                    <a href="#"
-                        class="inline-flex justify-center items-center text-[#6FF1A6] hover:underline hover:text-[#5ff89f]">
+                    <a href="https://wa.me/+5511955509876"
+                        class="inline-flex justify-center items-center text-[#6FF1A6] hover:underline hover:text-[#5ff89f]" target="_blank">
                         LET’S CHAT!
                     </a>
                 </div>

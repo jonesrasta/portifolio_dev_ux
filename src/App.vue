@@ -2,6 +2,7 @@
 import Navbar from "./layout/Nav/Navbar.vue";
 import Logo from "./components/Home/Logo/Logo.vue";
 import Timeline from "./components/Home/Timeline/TimeLine.vue";
+import Projects from "./components/Home/Projects/Projects.vue";
 import Skills from "./components/Home/Skills/SoftSkills.vue";
 import Contact from "./components/Home/Contact/Contact.vue";
 import Download from "./components/Home/Download/Download.vue";
@@ -19,8 +20,9 @@ import Whatsapp from "./layout/Whatsapp/WhatsappButton.vue";
             <Logo />
             <Skills />
             <Timeline />
-            <Contact />
+            <Projects />
             <Download />
+            <Contact />
             <Footer />
             <Whatsapp />
         </div>
