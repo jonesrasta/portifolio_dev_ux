@@ -24,7 +24,7 @@
               <div>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-6">
-                          <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Projcts</a>
+                          <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Projects</a>
                       </li>
                       <li>
                           <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Contact</a>
