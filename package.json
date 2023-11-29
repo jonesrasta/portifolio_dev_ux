@@ -12,7 +12,8 @@
     "flowbite": "^1.6.4",
     "gitart-scroll-carousel": "^1.2.4",
     "tw-elements": "^1.0.0-alpha13",
-    "vue": "^3.2.45"
+    "vue": "^3.2.45",
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
