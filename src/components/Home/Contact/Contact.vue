@@ -20,7 +20,7 @@
                 <div>
                     <span class="text-lg text-gray-400 font-bold">Company Name</span>
                     <input
-                        class="w-full bg-[#ffffff17] text-white mt-2 p-2 rounded-md focus:outline-none focus:shadow-outline focus:ring-[#6cd698]"
+                        class="w-full bg-[#ffffff17] text-white mt-2 p-2 rounded-md border-0 focus:outline-none focus:shadow-outline focus:ring-[#6cd698]"
                         type="text" placeholder="">
                 </div>
                 <div class="mt-8">
