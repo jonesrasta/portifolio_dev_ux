@@ -4,8 +4,8 @@ import { Collapse } from 'flowbite';
 
 <template>
   <nav class="bg-[#0d1016c2] w-full z-50 flex backdrop-blur-md justify-center max-lg:justify-between px-5 h-24 fixed">
-    <img src="/src/assets/img/logo.webp" class="h-18 m-3 flex justify-center items-center" alt="Flowbite Logo" />
-    <!-- <button class="text-white justify-between lg:hidden z-40" type="button" data-drawer-target="drawer-right-example"
+    <img src="/src/assets/img/logo.webp" class="h-18 m-3 lg:hidden flex justify-center items-center" alt="Flowbite Logo" />
+     <button class="text-white justify-between lg:hidden z-40" type="button" data-drawer-target="drawer-right-example"
       data-drawer-show="drawer-right-example" data-drawer-placement="right" aria-controls="drawer-right-example">
       <span class="sr-only">Open main menu</span>
       <svg class="w-7 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -58,13 +58,13 @@ import { Collapse } from 'flowbite';
               <span class="ml-6">Contact</span>
             </a>
           </li>
-        </ul> -->
+        </ul> 
 
-        <!-- <a href="/" class="flex items-center justify-center my-6">
+         <a href="/" class="flex items-center justify-center my-6">
           <img src="/src/assets/img/logo.webp" alt="Logo Footer" class="w-10" />
 
-        </a> -->
-        <!-- <div class="flex px-2 justify-center items-center space-x-3 my-0">
+        </a> 
+        <div class="flex px-2 justify-center items-center space-x-3 my-0">
           <a href="https://www.linkedin.com/in/joneslima/"
             class="bg-[#272727] shadow-md w-12 h-12 rounded-full flex items-center justify-center" target="_blank"
             aria-label="Linkedin">
@@ -105,9 +105,9 @@ import { Collapse } from 'flowbite';
         <span class="sr-only">Close menu</span>
       </button>
 
-    </div> -->
+    </div> 
 
-    <!-- <div class="flex max-lg:hidden">
+     <div class="flex max-lg:hidden">
       <ul class="font-medium flex p-4 md:p-0 mt-4 md:space-x-16 md:mt-0 justify-center items-center">
         <li>
           <a href="/skills" class="block py-2 pl-3 pr-4 text-white md:p-0 active:text-[#6FF1A6]" aria-current="page">Skills</a>
@@ -125,7 +125,7 @@ import { Collapse } from 'flowbite';
           <a href="/projetos" class="text-white hover:text-[#6FF1A6]">Contact</a>
         </li>
     </ul>
-  </div> -->
+  </div> 
 
 
 </nav></template>
